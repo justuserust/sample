@@ -14,4 +14,5 @@ steps:
   commands:
   - pwd
   - ls -la
-  - cat .quad.yml
+  - cat merda
+  - cat README
