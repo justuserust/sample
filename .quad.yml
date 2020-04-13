@@ -15,4 +15,4 @@ steps:
   - pwd
   - ls -la
   - cat merda
-  - cat README
+  - cat README.md
