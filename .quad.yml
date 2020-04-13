@@ -14,4 +14,4 @@ steps:
   commands:
   - pwd
   - ls -la
-  - ls -la /app
+  - cat .quad.yml
