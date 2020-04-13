@@ -1,5 +1,4 @@
 ---
-name: daje
 
 steps:
 - name: backend
