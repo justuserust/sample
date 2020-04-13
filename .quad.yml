@@ -1,0 +1,15 @@
+---
+name: daje
+
+steps:
+- name: backend
+  image: ubuntu
+  commands:
+  - echo $(date)
+  - echo ciao
+
+- name: frontend
+  image: alpine/git
+  commands:
+  - ls
+  - touch merda
