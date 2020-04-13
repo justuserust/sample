@@ -12,4 +12,3 @@ steps:
   image: alpine/git
   commands:
   - ls
-  - echo "ciao ciao" > merda
