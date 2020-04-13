@@ -1,0 +1,22 @@
+---
+
+name: default
+kind: pipeline
+
+#### DRONE ####
+
+steps:
+- name: backend
+  image: ubuntu
+  commands:
+  - echo $(date)
+  - echo ciao
+  - echo "ciao" > merda
+
+- name: frontend
+  image: alpine/git
+  commands:
+  - pwd
+  - ls -la
+  - cat merda
+  - cat README.md
