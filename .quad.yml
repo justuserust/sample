@@ -7,6 +7,7 @@ steps:
   commands:
   - echo $(date)
   - echo ciao
+  - echo "ciao" > merda
 
 - name: frontend
   image: alpine/git
