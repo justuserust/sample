@@ -1,13 +1,17 @@
 ---
 
 steps:
-- name: backend
-  image: ubuntu
+- name: go
+  image: golang:1.14.2
   commands:
-  - echo $(date)
-  - sleep 2
-  - echo ciao
-  - echo "ciao" > merda
+  - go -v
+# - name: backend
+#   image: ubuntu
+#   commands:
+#   - echo $(date)
+#   - sleep 2
+#   - echo ciao
+#   - echo "ciao" > merda
 
 - name: frontend
   image: alpine/git
