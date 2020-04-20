@@ -4,7 +4,7 @@ steps:
 - name: go
   image: golang:1.14.2
   commands:
-  - go -v
+  - go version
 # - name: backend
 #   image: ubuntu
 #   commands:
